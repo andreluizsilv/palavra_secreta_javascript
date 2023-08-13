@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-color: goldenrod;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#imagem {
+    background-image: url("../imagem/bomba_inicio.jpg");
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+}
+
+#palavra_secreta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.letras {
+    width: 16px;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    color: #ffffff;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#teclado {
+    margin-top: 30px;
+} 
+
