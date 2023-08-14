@@ -1,28 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Jogo da Adivinhação</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jogo da Advinhação</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./static/css/style.css">
 </head>
 
 <body>
-    <dir class="container">
-        <dir id="imagem"></dir>
-        <dir id="palavra_secreta">
-            <dir class="letras">A</dir>
-            <dir class="letras">B</dir>
-            <dir class="letras">C</dir>
-            <dir class="letras">D</dir>
-            <dir class="letras">E</dir>
-            <dir class="letras">F</dir>
-        </dir>
-        <dir id="teclado">
+
+    <div class="container">
+        <div id="imagem"></div>
+        <div id="palavra_secreta">
+            <div class="letras">A</div>
+            <div class="letras">B</div>
+            <div class="letras">C</div>
+            <div class="letras">D</div>
+            <div class="letras">E</div>
+            <div class="letras">F</div>
+        </div>
+        <div id="teclado">
             <div class="teclas">
                 <button id="tecla_A">A</button>
                 <button id="tecla_B">B</button>
@@ -34,7 +34,7 @@
                 <button id="tecla_H">H</button>
                 <button id="tecla_I">I</button>
             </div>
-            <dir id="teclado">
+            <div id="teclado">
                 <div class="teclas">
                     <button id="tecla_J">J</button>
                     <button id="tecla_k">K</button>
@@ -46,7 +46,7 @@
                     <button id="tecla_Q">Q</button>
                     <button id="tecla_R">R</button>
                 </div>
-                <dir id="teclado">
+                <div id="teclado">
                     <div class="teclas">
                         <button id="tecla_S">S</button>
                         <button id="tecla_T">T</button>
@@ -58,14 +58,16 @@
                         <button id="tecla_Z">Z</button>
                         <button id="botReiniciar">🎮</button>
                     </div>
-                </dir>
-                <dir id="dicas"></dir>
-            </dir>
+                </div>
+                <div id="dicas">
+                    categoria
+                </div>
+            </div>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
                 crossorigin="anonymous"></script>
-            <script src="./static/js/script.js">
-</body >
+            <script src="./static/js/script.js"></script>
+</body>
 
-</html >
+</html>
